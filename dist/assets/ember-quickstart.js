@@ -54,6 +54,153 @@
     }
   });
 });
+;define("ember-quickstart/components/about-me", ["exports"], function (_exports) {
+  "use strict";
+
+  Object.defineProperty(_exports, "__esModule", {
+    value: true
+  });
+  _exports.default = void 0;
+
+  const __COLOCATED_TEMPLATE__ = Ember.HTMLBars.template(
+  /*
+    About me
+  <br>
+  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia repellendus dolores expedita dolore at qui cumque nam amet? Voluptate officiis enim, eveniet eius repudiandae ea itaque numquam! Odio, exercitationem modi!
+  <hr>
+  {{yield}}
+  */
+  {"id":"bOF03iy+","block":"{\"symbols\":[\"&default\"],\"statements\":[[2,\"About me\\n\"],[10,\"br\"],[12],[13],[2,\"\\nLorem ipsum dolor sit amet, consectetur adipisicing elit. Quia repellendus dolores expedita dolore at qui cumque nam amet? Voluptate officiis enim, eveniet eius repudiandae ea itaque numquam! Odio, exercitationem modi!\\n\"],[10,\"hr\"],[12],[13],[2,\"\\n\"],[18,1,null]],\"hasEval\":false,\"upvars\":[]}","meta":{"moduleName":"ember-quickstart/components/about-me.hbs"}});
+
+  var _default = Ember._setComponentTemplate(__COLOCATED_TEMPLATE__, Ember._templateOnlyComponent());
+
+  _exports.default = _default;
+});
+;define("ember-quickstart/components/card", ["exports"], function (_exports) {
+  "use strict";
+
+  Object.defineProperty(_exports, "__esModule", {
+    value: true
+  });
+  _exports.default = void 0;
+
+  const __COLOCATED_TEMPLATE__ = Ember.HTMLBars.template(
+  /*
+    Nataya Soledad Flores
+  <hr>
+  {{yield}}
+  */
+  {"id":"TxBntBmw","block":"{\"symbols\":[\"&default\"],\"statements\":[[2,\"Nataya Soledad Flores\\n\"],[10,\"hr\"],[12],[13],[2,\"\\n\"],[18,1,null]],\"hasEval\":false,\"upvars\":[]}","meta":{"moduleName":"ember-quickstart/components/card.hbs"}});
+
+  var _default = Ember._setComponentTemplate(__COLOCATED_TEMPLATE__, Ember._templateOnlyComponent());
+
+  _exports.default = _default;
+});
+;define("ember-quickstart/components/contact", ["exports"], function (_exports) {
+  "use strict";
+
+  Object.defineProperty(_exports, "__esModule", {
+    value: true
+  });
+  _exports.default = void 0;
+
+  const __COLOCATED_TEMPLATE__ = Ember.HTMLBars.template(
+  /*
+    Contact
+  <br>
+  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia repellendus dolores expedita dolore at qui cumque nam amet? Voluptate officiis enim, eveniet eius repudiandae ea itaque numquam! Odio, exercitationem modi!
+  <hr>
+  {{yield}}
+  */
+  {"id":"2ABfSGEc","block":"{\"symbols\":[\"&default\"],\"statements\":[[2,\"Contact\\n\"],[10,\"br\"],[12],[13],[2,\"\\nLorem ipsum dolor sit amet, consectetur adipisicing elit. Quia repellendus dolores expedita dolore at qui cumque nam amet? Voluptate officiis enim, eveniet eius repudiandae ea itaque numquam! Odio, exercitationem modi!\\n\"],[10,\"hr\"],[12],[13],[2,\"\\n\"],[18,1,null]],\"hasEval\":false,\"upvars\":[]}","meta":{"moduleName":"ember-quickstart/components/contact.hbs"}});
+
+  var _default = Ember._setComponentTemplate(__COLOCATED_TEMPLATE__, Ember._templateOnlyComponent());
+
+  _exports.default = _default;
+});
+;define("ember-quickstart/components/education", ["exports"], function (_exports) {
+  "use strict";
+
+  Object.defineProperty(_exports, "__esModule", {
+    value: true
+  });
+  _exports.default = void 0;
+
+  const __COLOCATED_TEMPLATE__ = Ember.HTMLBars.template(
+  /*
+    Education
+  <br>
+  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia repellendus dolores expedita dolore at qui cumque nam amet? Voluptate officiis enim, eveniet eius repudiandae ea itaque numquam! Odio, exercitationem modi!
+  <hr>
+  {{yield}}
+  */
+  {"id":"6DbRW/MA","block":"{\"symbols\":[\"&default\"],\"statements\":[[2,\"Education\\n\"],[10,\"br\"],[12],[13],[2,\"\\nLorem ipsum dolor sit amet, consectetur adipisicing elit. Quia repellendus dolores expedita dolore at qui cumque nam amet? Voluptate officiis enim, eveniet eius repudiandae ea itaque numquam! Odio, exercitationem modi!\\n\"],[10,\"hr\"],[12],[13],[2,\"\\n\"],[18,1,null]],\"hasEval\":false,\"upvars\":[]}","meta":{"moduleName":"ember-quickstart/components/education.hbs"}});
+
+  var _default = Ember._setComponentTemplate(__COLOCATED_TEMPLATE__, Ember._templateOnlyComponent());
+
+  _exports.default = _default;
+});
+;define("ember-quickstart/components/skills", ["exports"], function (_exports) {
+  "use strict";
+
+  Object.defineProperty(_exports, "__esModule", {
+    value: true
+  });
+  _exports.default = void 0;
+
+  const __COLOCATED_TEMPLATE__ = Ember.HTMLBars.template(
+  /*
+    Skills
+  <br>
+          <div class="chip">
+              HTML
+          </div>
+          <div class="chip">
+              CSS
+          </div>
+          <div class="chip">
+              Javascript
+          </div>
+          <div class="chip">
+              HTML
+          </div>
+          <div class="chip">
+              CSS
+          </div>
+          <div class="chip">
+              Javascript
+          </div>
+  <hr>
+  {{yield}}
+  */
+  {"id":"AKBi0I1R","block":"{\"symbols\":[\"&default\"],\"statements\":[[2,\"Skills\\n\"],[10,\"br\"],[12],[13],[2,\"\\n        \"],[10,\"div\"],[14,0,\"chip\"],[12],[2,\"\\n            HTML\\n        \"],[13],[2,\"\\n        \"],[10,\"div\"],[14,0,\"chip\"],[12],[2,\"\\n            CSS\\n        \"],[13],[2,\"\\n        \"],[10,\"div\"],[14,0,\"chip\"],[12],[2,\"\\n            Javascript\\n        \"],[13],[2,\"\\n        \"],[10,\"div\"],[14,0,\"chip\"],[12],[2,\"\\n            HTML\\n        \"],[13],[2,\"\\n        \"],[10,\"div\"],[14,0,\"chip\"],[12],[2,\"\\n            CSS\\n        \"],[13],[2,\"\\n        \"],[10,\"div\"],[14,0,\"chip\"],[12],[2,\"\\n            Javascript\\n        \"],[13],[2,\"\\n\"],[10,\"hr\"],[12],[13],[2,\"\\n\"],[18,1,null]],\"hasEval\":false,\"upvars\":[]}","meta":{"moduleName":"ember-quickstart/components/skills.hbs"}});
+
+  var _default = Ember._setComponentTemplate(__COLOCATED_TEMPLATE__, Ember._templateOnlyComponent());
+
+  _exports.default = _default;
+});
+;define("ember-quickstart/components/volunteer", ["exports"], function (_exports) {
+  "use strict";
+
+  Object.defineProperty(_exports, "__esModule", {
+    value: true
+  });
+  _exports.default = void 0;
+
+  const __COLOCATED_TEMPLATE__ = Ember.HTMLBars.template(
+  /*
+    Volunteer experience
+  <br>
+  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia repellendus dolores expedita dolore at qui cumque nam amet? Voluptate officiis enim, eveniet eius repudiandae ea itaque numquam! Odio, exercitationem modi!
+  <hr>
+  {{yield}}
+  */
+  {"id":"3huesqKs","block":"{\"symbols\":[\"&default\"],\"statements\":[[2,\"Volunteer experience\\n\"],[10,\"br\"],[12],[13],[2,\"\\nLorem ipsum dolor sit amet, consectetur adipisicing elit. Quia repellendus dolores expedita dolore at qui cumque nam amet? Voluptate officiis enim, eveniet eius repudiandae ea itaque numquam! Odio, exercitationem modi!\\n\"],[10,\"hr\"],[12],[13],[2,\"\\n\"],[18,1,null]],\"hasEval\":false,\"upvars\":[]}","meta":{"moduleName":"ember-quickstart/components/volunteer.hbs"}});
+
+  var _default = Ember._setComponentTemplate(__COLOCATED_TEMPLATE__, Ember._templateOnlyComponent());
+
+  _exports.default = _default;
+});
 ;define("ember-quickstart/components/welcome-page", ["exports", "ember-welcome-page/components/welcome-page"], function (_exports, _welcomePage) {
   "use strict";
 
@@ -66,6 +213,28 @@
       return _welcomePage.default;
     }
   });
+});
+;define("ember-quickstart/components/work", ["exports"], function (_exports) {
+  "use strict";
+
+  Object.defineProperty(_exports, "__esModule", {
+    value: true
+  });
+  _exports.default = void 0;
+
+  const __COLOCATED_TEMPLATE__ = Ember.HTMLBars.template(
+  /*
+    Work experience
+  <br>
+  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia repellendus dolores expedita dolore at qui cumque nam amet? Voluptate officiis enim, eveniet eius repudiandae ea itaque numquam! Odio, exercitationem modi!
+  <hr>
+  {{yield}}
+  */
+  {"id":"ZMQyCvLu","block":"{\"symbols\":[\"&default\"],\"statements\":[[2,\"Work experience\\n\"],[10,\"br\"],[12],[13],[2,\"\\nLorem ipsum dolor sit amet, consectetur adipisicing elit. Quia repellendus dolores expedita dolore at qui cumque nam amet? Voluptate officiis enim, eveniet eius repudiandae ea itaque numquam! Odio, exercitationem modi!\\n\"],[10,\"hr\"],[12],[13],[2,\"\\n\"],[18,1,null]],\"hasEval\":false,\"upvars\":[]}","meta":{"moduleName":"ember-quickstart/components/work.hbs"}});
+
+  var _default = Ember._setComponentTemplate(__COLOCATED_TEMPLATE__, Ember._templateOnlyComponent());
+
+  _exports.default = _default;
 });
 ;define("ember-quickstart/data-adapter", ["exports", "@ember-data/debug"], function (_exports, _debug) {
   "use strict";
@@ -367,8 +536,8 @@
   _exports.default = void 0;
 
   var _default = Ember.HTMLBars.template({
-    "id": "DGsq928q",
-    "block": "{\"symbols\":[],\"statements\":[[8,\"welcome-page\",[],[[],[]],null],[2,\"\\n\"],[2,\"\\n\"],[1,[30,[36,1],[[30,[36,0],null,null]],null]]],\"hasEval\":false,\"upvars\":[\"-outlet\",\"component\"]}",
+    "id": "BERswLdB",
+    "block": "{\"symbols\":[],\"statements\":[[10,\"nav\"],[12],[13],[2,\"\\n    \"],[10,\"div\"],[14,0,\"row\"],[12],[2,\"\\n      \"],[10,\"div\"],[14,0,\"col s4\"],[12],[2,\"\\n        \"],[8,\"card\",[],[[],[]],null],[2,\"\\n        \"],[8,\"about-me\",[],[[],[]],null],[2,\"\\n        \"],[8,\"contact\",[],[[],[]],null],[2,\"\\n      \"],[13],[2,\"\\n      \"],[10,\"div\"],[14,0,\"col s8\"],[12],[2,\"\\n        \"],[8,\"work\",[],[[],[]],null],[2,\"\\n        \"],[8,\"skills\",[],[[],[]],null],[2,\"\\n        \"],[8,\"education\",[],[[],[]],null],[2,\"\\n        \"],[8,\"volunteer\",[],[[],[]],null],[2,\"\\n      \"],[13],[2,\"\\n    \"],[13],[2,\"\\n\"],[1,[30,[36,1],[[30,[36,0],null,null]],null]]],\"hasEval\":false,\"upvars\":[\"-outlet\",\"component\"]}",
     "meta": {
       "moduleName": "ember-quickstart/templates/application.hbs"
     }
@@ -451,7 +620,7 @@ catch(err) {
 
 ;
           if (!runningTests) {
-            require("ember-quickstart/app")["default"].create({"name":"ember-quickstart","version":"0.0.0"});
+            require("ember-quickstart/app")["default"].create({"name":"ember-quickstart","version":"0.0.0+a1de44fe"});
           }
         
 //# sourceMappingURL=ember-quickstart.map
